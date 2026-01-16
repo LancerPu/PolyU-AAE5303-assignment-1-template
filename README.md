@@ -11,7 +11,7 @@
 _[Your laptop model, e.g., Dell XPS 15, MacBook Pro M1, etc.]_
 
 **CPU / RAM:**  
-_[e.g., Intel Core i7-11800H, 16GB RAM]_
+_[e.g., Intel CH, 16GB RAM]_
 
 **Host OS:**  
 _[Windows 11 / macOS / Ubuntu 22.04]_
