@@ -8,20 +8,20 @@
 ## 1. System Information
 
 **Laptop model:**  
-_[Your laptop model, e.g., Dell XPS 15, MacBook Pro M1, etc.]_
+_[Your laptop model, legion y7000]_
 
 **CPU / RAM:**  
-_[e.g., Intel CH, 16GB RAM]_
+_[e.g.,amd ryzen r9-8940HX, 32GB RAM]_
 
 **Host OS:**  
-_[Windows 11 / macOS / Ubuntu 22.04]_
+_[Windows 11]_
 
 **Linux/ROS environment type:**  
-_[Choose one:]_
+_[Choose one:ROS]_
 - [ ] Dual-boot Ubuntu
 - [ ] WSL2 Ubuntu
 - [ ] Ubuntu in VM (UTM/VirtualBox/VMware/Parallels)
-- [ ] Docker container
+- [X] Docker container
 - [ ] Lab PC
 - [ ] Remote Linux server
 
@@ -65,13 +65,33 @@ python scripts/test_open3d_pointcloud.py
 
 **Output:**
 ```
-[Paste your actual terminal output here]
+$ cd /root/PolyU-AAE5303-env-smork-test && export LANG=C.UTF-8 && export LC_ALL=C.UTF-8 && source /opt/ros/humble/setup.bash && source .venv/bin/activate && python scripts/test_python_env.py 2>&1 | tail -20
+✅ Module 'scipy' found (v1.15.3).
+✅ Module 'matplotlib' found (v3.10.8).
+✅ Module 'cv2' found (v4.12.0).
+✅ Module 'rclpy' found (vunknown).
+✅ numpy matrix multiply OK.
+✅ numpy version 2.2.6 detected.
+✅ scipy FFT OK.
+✅ scipy version 1.15.3 detected.
+✅ matplotlib backend OK (Agg), version 3.10.8.
+✅ OpenCV OK (v4.12.0), decoded sample image 128x128.
+✅ Open3D OK (v0.19.0), NumPy 2.2.6.
+✅ Open3D loaded sample PCD with 8 pts and completed round-trip I/O.
+✅ ROS 2 CLI OK: /opt/ros/humble/bin/ros2
+✅ ROS 1 tools not found (acceptable if ROS 2 is installed).
+✅ colcon found: /usr/bin/colcon
+✅ ROS 2 workspace build OK (env_check_pkg).
+✅ ROS 2 runtime OK: talker and listener exchanged messages.
+✅ Binary 'python3' found at /root/PolyU-AAE5303-env-smork-test/.venv/bin/python3
+
+All checks passed. You are ready for AAE5303 🚀
 ```
 
 **Screenshot:**  
 _[Include one screenshot showing both tests passing]_
 
-![Python Tests Passing](path/to/your/screenshot.png)
+<img width="2559" height="1527" alt="e036e6039b757de0d877102914ac0384" src="https://github.com/user-attachments/assets/d0390cb7-255d-4a94-a00d-cc1615feed38" />
 
 ---
 
