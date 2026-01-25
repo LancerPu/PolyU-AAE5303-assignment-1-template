@@ -113,7 +113,10 @@ Summary: 1 package finished [x.xx s]
 
 **Your actual output:**
 ```
-[Paste your build summary here]
+Summary: 1 package finished [0.67s]
+The workspace is at /home/wang/ros2_workspace with:
+A src directory containing my_package (a Python package)
+Build artifacts in build, install, and log directories
 ```
 
 ### 3.2 Run talker and listener
@@ -132,7 +135,9 @@ ros2 run env_check_pkg talker.py
 
 **Output (3–4 lines):**
 ```
-[Paste 3-4 lines of talker output here]
+Publishing: "Hello World: 0"
+Publishing: "Hello World: 1"
+Publishing: "Hello World: 2"
 ```
 
 **Run listener:**
@@ -142,7 +147,9 @@ ros2 run env_check_pkg listener.py
 
 **Output (3–4 lines):**
 ```
-[Paste 3-4 lines of listener output here]
+I heard: "Hello World: 0"
+I heard: "Hello World: 1"
+I heard: "Hello World: 2"
 ```
 
 **Alternative (using launch file):**
@@ -153,7 +160,7 @@ ros2 launch env_check_pkg env_check.launch.py
 **Screenshot:**  
 _[Include one screenshot showing talker + listener running]_
 
-![Talker and Listener Running](path/to/your/screenshot.png)
+<img width="2559" height="1527" alt="c736096c30146bd6f55a3cd403c7451c" src="https://github.com/user-attachments/assets/dd4cc2dc-12c4-4921-954d-679912752793" />
 
 ---
 
